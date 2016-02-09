@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		4C0E3CAB1C6907A4001C4A90 /* EKCoinChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0E3CAA1C6907A4001C4A90 /* EKCoinChange.m */; };
 		86C5147B18F80E5A00B5E9AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C5147A18F80E5A00B5E9AE /* Foundation.framework */; };
 		86C5147E18F80E5A00B5E9AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5147D18F80E5A00B5E9AE /* main.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		86C5148218F80E5A00B5E9AE /* EKAlgorithmsApp.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86C5148118F80E5A00B5E9AE /* EKAlgorithmsApp.1 */; };
@@ -103,6 +104,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4C0E3CA91C6907A4001C4A90 /* EKCoinChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKCoinChange.h; sourceTree = "<group>"; };
+		4C0E3CAA1C6907A4001C4A90 /* EKCoinChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKCoinChange.m; sourceTree = "<group>"; };
 		666CA5D0F3A84DDFB57C1434 /* libPods-EKAlgorithmsSpecs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EKAlgorithmsSpecs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C5147718F80E5A00B5E9AE /* EKAlgorithmsExamples */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EKAlgorithmsExamples; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C5147A18F80E5A00B5E9AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -208,6 +211,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C0E3CA81C69078A001C4A90 /* Problem2 */ = {
+			isa = PBXGroup;
+			children = (
+				4C0E3CA91C6907A4001C4A90 /* EKCoinChange.h */,
+				4C0E3CAA1C6907A4001C4A90 /* EKCoinChange.m */,
+			);
+			name = Problem2;
+			sourceTree = "<group>";
+		};
 		86C5146E18F80E5A00B5E9AE = {
 			isa = PBXGroup;
 			children = (
@@ -282,6 +294,7 @@
 		86C5158518F8162F00B5E9AE /* EKAlgorithms */ = {
 			isa = PBXGroup;
 			children = (
+				4C0E3CA81C69078A001C4A90 /* Problem2 */,
 				86C5158618F8162F00B5E9AE /* Data Structures */,
 				86C515B018F8162F00B5E9AE /* EKRecursionStuff.h */,
 				86C515B118F8162F00B5E9AE /* EKRecursionStuff.m */,
@@ -622,6 +635,7 @@
 				86C515E218F8162F00B5E9AE /* EKVertex.m in Sources */,
 				86C515F618F8162F00B5E9AE /* NSNumber+EKStuff.m in Sources */,
 				86C515FA18F8162F00B5E9AE /* NSArray+Selection.m in Sources */,
+				4C0E3CAB1C6907A4001C4A90 /* EKCoinChange.m in Sources */,
 				86C515E418F8162F00B5E9AE /* EKLinkedList.m in Sources */,
 				86C515CB18F8162F00B5E9AE /* EKAVLTreeNode.m in Sources */,
 				86C515EA18F8162F00B5E9AE /* EKTreeNode.m in Sources */,

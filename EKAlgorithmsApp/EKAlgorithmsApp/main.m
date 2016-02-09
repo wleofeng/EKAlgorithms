@@ -24,6 +24,7 @@
 #import "EKTree.h"
 #import "EKBTree.h"
 #import "EKRecursionStuff.h"
+#import "EKCoinChange.h"
 
 int main(int argc, const char *argv[])
 {
@@ -522,6 +523,12 @@ int main(int argc, const char *argv[])
         //Tower of Hanoi
         [EKRecursionStuff solveTowerOfHanoiWithDisksNumber:3 from:@"A" to:@"C" withExtraPin:@"B"];
     }
+    
+#pragma mark - Problems
+    NSArray *coins = @[@1, @2, @5];
+    NSUInteger amount = 11;
+    
+    NSLog(@"Coin change is %lu",[EKCoinChange calculateCoinChangeForCoins:coins amount:amount]);
     
 	return 0;
 }
