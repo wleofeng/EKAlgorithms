@@ -10,4 +10,6 @@
 
 @interface EKCoinChange : NSObject
 
++ (NSInteger)calculateCoinChangeForCoins:(NSArray *)coins amount:(NSInteger)amount;
+
 @end
