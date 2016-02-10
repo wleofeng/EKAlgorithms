@@ -30,14 +30,10 @@
     NSOrderedSet *coinsOrderedSetReversed = [[NSOrderedSet orderedSetWithArray:coins] reversedOrderedSet];
     NSMutableArray *coinsArrayDesc = [[coinsOrderedSetReversed array] mutableCopy];
     
-    NSInteger remainingAmount = amount;
-    NSInteger count = 0;
-    NSInteger remainder = 0;
-    
-    for (NSInteger i; i < coins.count; i ++) {
-        remainingAmount = amount;
-        count = 0;
-        remainder = 0;
+    for (NSInteger i = 0; i < coins.count; i++) {
+        NSInteger remainingAmount = amount;
+        NSInteger count = 0;
+        NSInteger remainder = 0;
         
         for (NSNumber *coin in coinsArrayDesc) {
             if (remainingAmount >= [coin integerValue]) {
